@@ -1,4 +1,4 @@
-  def count_strings(array)
+  def count_strings(array_1, array_2)
     array_1 = ["", "hello", "world", 4, 1, 5, [], {}]
 array_2 = ["", 4, "", "goodbye",""]
   array.count do |item|
