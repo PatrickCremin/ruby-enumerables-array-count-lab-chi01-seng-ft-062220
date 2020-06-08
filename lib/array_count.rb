@@ -1,9 +1,8 @@
-  def count_strings(array_1, array_2)
-    array_1 = ["", "hello", "world", 4, 1, 5, [], {}]
-array_2 = ["", 4, "", "goodbye",""]
+  def count_strings(array)
   array.count do |item|
     item.is_a? String
   end
+end
 
 def count_empty_strings(array)
   array.count do |item|
