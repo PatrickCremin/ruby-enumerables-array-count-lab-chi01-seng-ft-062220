@@ -1,4 +1,3 @@
-def count_strings(array)
   def count_strings(array)
   array.count do |item|
     item.is_a? String
