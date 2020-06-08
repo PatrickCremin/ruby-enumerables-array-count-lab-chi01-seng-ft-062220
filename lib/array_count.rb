@@ -1,4 +1,5 @@
 def count_strings(array_1, array_2)
+  count_strings(array_1)
   array_1 = ["", "hello", "world", 4, 1, 5, [], {}]
 array_2 = ["", 4, "", "goodbye",""]
 end
